@@ -10,11 +10,11 @@ API_KEY_ENV_KEY_MAP = {
     "optimism": "OPTIMISTIC_ETHERSCAN_API_KEY",
     "polygon": "POLYGONSCAN_API_KEY",
     "polygon-zkevm": "POLYGON_ZKEVM_ETHERSCAN_API_KEY",
+    "scroll": "SCROLLSCAN_API_KEY",
 }
 NETWORKS = {
     "arbitrum": [
         "mainnet",
-        "goerli",
         "sepolia",
     ],
     "avalanche": [
@@ -23,7 +23,6 @@ NETWORKS = {
     ],
     "base": [
         "mainnet",
-        "goerli",
         "sepolia",
     ],
     "blast": [
@@ -36,7 +35,7 @@ NETWORKS = {
     ],
     "ethereum": [
         "mainnet",
-        "goerli",
+        "holesky",
         "sepolia",
     ],
     "fantom": [
@@ -46,15 +45,18 @@ NETWORKS = {
     "gnosis": ["mainnet"],
     "optimism": [
         "mainnet",
-        "goerli",
         "sepolia",
     ],
     "polygon": [
         "mainnet",
-        "mumbai",
+        "amoy",
     ],
     "polygon-zkevm": [
         "mainnet",
-        "goerli",
+        "cardona",
+    ],
+    "scroll": [
+        "mainnet",
+        "testnet",
     ],
 }
